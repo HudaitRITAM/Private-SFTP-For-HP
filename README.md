@@ -64,6 +64,11 @@ Password:- hWk@b4V9#JrP<img width="792" height="323" alt="image" src="https://gi
 		url:   https://172.25.16.6 (private) (GIT_SSL_NO_VERIFY=true git pull) -for ssl expire deployment
 		username: ritam.hudait@in.ey.com
 		Password: Nirmal@2001 / Nirmal%402001(linux)
+
+				Username:- root
+		Password:- HPf#sKot8@cR / HPf%23sKot8%40cR(linux)
+<img width="487" height="46" alt="image" src="https://github.com/user-attachments/assets/27d5a2b7-e781-47d0-b4d7-4b3ea94c5cd2" />
+
         
 		
 		Username:- root
