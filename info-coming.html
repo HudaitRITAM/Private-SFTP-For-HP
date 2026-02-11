@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+
+  <!-- Import Poppins font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Full-screen container */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+
+    /* Background with gradient (no blur) */
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right top, #001c39, #002851, #00356a, #004184, #014e9f);
+      z-index: 1;
+    }
+
+    /* Text container */
+    .message-container {
+      position: relative;
+      z-index: 2;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      font-weight: 600; /* Bold weight for Poppins */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Gradient background without blur -->
+  <div class="background"></div>
+
+  <!-- Visible text on top of the background -->
+  <div class="message-container">
+    <h1>Information is Coming Soon</h1>
+  </div>
+
+</body>
+</html>
